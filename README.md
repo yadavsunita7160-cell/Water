@@ -48,3 +48,7 @@ The filesystem must be persistent if you want tokens.json to survive redeploys. 
 ## Important
 
 User-token automation can violate Discord's Terms of Service. Use this project only where you have permission and accept the platform risk.
+
+## Merged module library
+
+The `modules/registry.json` file indexes 188 modules discovered across the source archives. Voicecord, Onliner, presence, RPC, voice, token management, bulk operations, and profile refresh are wired into the Python runtime. Other modules are searchable and labelled as catalogued until a reviewed adapter exists; their original Node or compiled runtimes are not silently mixed into Voicecord.
